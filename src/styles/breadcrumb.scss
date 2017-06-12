@@ -1,0 +1,36 @@
+.nav-breadcrumb{
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 0!important;
+  margin-top: 10px;
+  > li {
+    float: left;
+    color: #555;
+    font-weight: 700;
+    position: relative;
+    & + li{
+      margin-left: 25px;
+      &:before{
+        color: #555;
+        position: absolute;
+        left: -17px;
+        padding: 0;
+        content: ">";
+      }
+    }
+    span{
+      text-transform: uppercase;
+    }
+    a{
+      color: #555;
+      text-transform: uppercase;
+      &:hover, &:focus{
+        text-decoration: none;
+        background-color: transparent;
+      }
+    }
+    &.active{
+      color: #337ab7;
+    }
+  }
+}
