@@ -1,5 +1,5 @@
 {
-  "name": "quiUtil_front",
+  "name": "quipu-util-front",
   "version": "0.0.1",
   "main": "app.js",
   "description": "Utils for projects in angularjs",
