@@ -64,7 +64,7 @@ Convert String to Date
 * dateStr: date in string format.
 * splitter(optional): Splitter in string input.
 
-###### stringToDate
+###### dateToString
 Convert Date to String
 
     dateToString(date, splitter='/')
