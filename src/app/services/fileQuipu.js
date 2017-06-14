@@ -1,5 +1,5 @@
 class fileQuipu {
-
+    // @ngInject
     constructor(FileSaver){
         this.FileSaver = FileSaver;
         this.init();

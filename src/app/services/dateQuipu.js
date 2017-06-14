@@ -1,5 +1,5 @@
 class dateQuipu {
-
+    // @ngInject
     constructor(){
         this.init();
     }
